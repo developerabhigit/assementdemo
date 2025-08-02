@@ -1,7 +1,7 @@
 // src/components/Header.jsx
 import React from "react";
 import Logo from "../assets/header_logo.svg";
-import UserDropdown from "./UserDropdown";
+import UserDropdown from "./UserDropDown";
 import { CiSearch } from "react-icons/ci";
 
 const Header = () => {
