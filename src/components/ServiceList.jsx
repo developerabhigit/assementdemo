@@ -23,8 +23,8 @@ const vendors = [
     profileUrl: "/profile/digitalweb",
   },
   {
-    name: "Digital web pvt. ltd",
-    distance: "Multiple Locations",
+    name: "Canva pvt. ltd",
+    distance: "5.6 miles away",
     image: "/assets/image3.png",
     tags: ["Full website design", "Banner design", "New pages"],
     rating: 4,
@@ -33,8 +33,8 @@ const vendors = [
     profileUrl: "/profile/digitalweb",
   },
   {
-    name: "Digital web pvt. ltd",
-    distance: "Multiple Locations",
+    name: "Bees pvt. ltd",
+    distance: "3.6 miles away",
     image: "/assets/image4.png",
     tags: ["Full website design", "Banner design", "New pages"],
     rating: 4,
@@ -43,7 +43,7 @@ const vendors = [
     profileUrl: "/profile/digitalweb",
   },
   {
-    name: "Digital web pvt. ltd",
+    name: "ABC pvt. ltd",
     distance: "Multiple Locations",
     image: "/assets/image5.png",
     tags: ["Full website design", "Banner design", "New pages"],
