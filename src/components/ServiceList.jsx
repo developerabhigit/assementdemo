@@ -9,7 +9,8 @@ const vendors = [
     tags: ["Full website design", "Banner design", "New pages"],
     rating: 5,
     ratingCount: 125,
-    description: "Lorem ipsum is dummy text...",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     profileUrl: "/profile/starlink",
   },
   {
@@ -19,7 +20,8 @@ const vendors = [
     tags: ["Full website design", "Banner design", "New pages"],
     rating: 4,
     ratingCount: 124,
-    description: "Lorem ipsum is dummy text...",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     profileUrl: "/profile/digitalweb",
   },
   {
@@ -29,7 +31,8 @@ const vendors = [
     tags: ["Full website design", "Banner design", "New pages"],
     rating: 4,
     ratingCount: 124,
-    description: "Lorem ipsum is dummy text...",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     profileUrl: "/profile/digitalweb",
   },
   {
@@ -39,7 +42,8 @@ const vendors = [
     tags: ["Full website design", "Banner design", "New pages"],
     rating: 4,
     ratingCount: 124,
-    description: "Lorem ipsum is dummy text...",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     profileUrl: "/profile/digitalweb",
   },
   {
@@ -49,7 +53,7 @@ const vendors = [
     tags: ["Full website design", "Banner design", "New pages"],
     rating: 4,
     ratingCount: 124,
-    description: "Lorem ipsum is dummy text...",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     profileUrl: "/profile/digitalweb",
   },
 ];
@@ -62,12 +66,12 @@ const ServiceList = () => {
           <ServiceCard key={index} vendor={vendor} />
         ))}
 
-         <button
-            className="flex items-center rounded-sm cursor-pointer text-white px-[29px] py-[3px] my-9 xl:my-13 font-poppins font-medium text-sm md:text-lg bg-primary"
-            aria-label="See More Professionals"
-          >
-            See More Professionals
-          </button>
+        <button
+          className="flex items-center rounded-sm cursor-pointer text-white px-[29px] py-[3px] my-9 xl:my-13 font-poppins font-medium text-sm md:text-lg bg-primary"
+          aria-label="See More Professionals"
+        >
+          See More Professionals
+        </button>
       </div>
     </section>
   );

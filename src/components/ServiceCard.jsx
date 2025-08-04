@@ -45,7 +45,7 @@ const ServiceCard = ({ vendor }) => {
         </div>
       </div>
 
-      <div className="flex-1 flex flex-col xl:px-4 justify-center">
+      <div className="flex-1 flex flex-col xl:pl-4 xl:pr-17 justify-center">
         <div className="hidden xl:flex justify-between items-center">
           <div className="flex items-center">
             <FaCircleCheck className="text-[#1cdd0a] text-lg" />
@@ -83,10 +83,7 @@ const ServiceCard = ({ vendor }) => {
         </div>
 
         <p className="font-poppins font-medium text-sm xl:text-xs text-[#828282]  mt-4">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          {vendor.description}
         </p>
 
         <div className="flex justify-between items-center mt-4">
